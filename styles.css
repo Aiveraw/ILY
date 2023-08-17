@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("heart-background.jpg"); /* Path to your heart-themed background image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: #e74c3c; /* Red color for the title */
+  }
+  
+  .timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    position: relative; /* Needed for heart positioning */
+  }
+  
+  .time-element {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack the number and unit vertically */
+  }
+  
+  span {
+    font-size: 36px; /* Larger font size for the timer values */
+    color: #2c3e50; /* Dark gray color for the timer values */
+    margin-bottom: 5px; /* Add some space below the number */
+  }
